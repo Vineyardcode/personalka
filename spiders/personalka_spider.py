@@ -1,6 +1,5 @@
 import scrapy
 
-
 class PersonalkaSpiderSpider(scrapy.Spider):
     name = "personalka_spider"
     allowed_domains = ["personalka.cz"]
